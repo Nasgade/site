@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body data-bs-theme="dark">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <header> <!--Header-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">JuicyJuice</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#juice">Католог соков</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#form">Форма заказа</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </header> <!--Header-->
+    <section> <!--Блок с текстом -->
+    <div class="container text-center">
+  <div class="row">
+    <div class="col-8 main-text">
+      <h1>Добро пожаловать на JuicyJuice</h1>
+      <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec leo in orci porttitor suscipit. Nunc semper tempor dui, at interdum nisi euismod ut. Integer dapibus leo vel diam rhoncus sollicitudin. Sed maximus elit lobortis varius feugiat. Sed sollicitudin felis dapibus, sollicitudin nibh lacinia, placerat purus. Sed sollicitudin nisi et.</p>
+    </div>
+    <div class="col-4"><img src="J1.png" class="w-100" alt="juice"></div>
+  </div>
+    </div>
+    </section> <!--Блок с текстом -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="J1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="J2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="J3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> <!--Карусель -->
+<div class="container text-center" id="juice"> <!--Карточки -->
+  <div class="row">
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div> <!--Карточки -->
+<div class="container text-center"> <!--Карточки -->
+  <div class="row">
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div> <!--Карточки -->
+<div class="container text-center"> <!--Карточки -->
+  <div class="row">
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div> <!--Карточки -->
+<div class="container text-center"> <!--Карточки -->
+  <div class="row">
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card " style="width: 18rem;">
+  <img src="J1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rich Вишня</h5>
+    <p class="card-text">
+      Состав: Вишневый сок, сахар, регулятор кислотности - лимонная кислота, вода.
+    </p>
+    <a href="#form" class="btn btn-primary">Заказать</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div> <!--Карточки -->
+<div class="container text-center" id="form">
+  <h2>БЕСПЛАТНАЯ доставка</h2>
+  <p>От 20 долларов/км при согласии на заказ.</p>
+</div>
+<div class="container text-center"> <!--Форма -->
+  <form class="row g-3 needs-validation" novalidate>
+  <div class="row justify-content-center">
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">Имя</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Макс" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Фамилия</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Ловит" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  </div>
+  <div class="row justify-content-center">
+  <div class="col-md-4">
+    <label for="validationCustom03" class="form-label">Выбор Сока</label>
+    <select class="form-select" id="validationCustom03" required>
+      <option selected disabled value="">Выбрать...</option>
+      <option>Вишня</option>
+      <option>Яблоко</option>
+      <option>Казахстан</option>
+      <option>Персик</option>
+      <option>Мультифрукт</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom04" class="form-label">Страна</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Выбрать...</option>
+      <option>Российская Федерация</option>
+      <option>Республика Беларусь</option>
+      <option>Казахстан</option>
+      <option>США</option>
+      <option>Япония</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  </div>
+  <div class="row justify-content-center">
+  <div class="col-3">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Я согласен уже на всё.
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  </div>
+   <div class="row justify-content-center">
+  <div class="col-5">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Я согласен получать рекламу и новости внутревенно.
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form> 
+</div> <!--Форма -->
+<footer>
+<p>+7 (924) 625-75-31, JuiceLTD, все права защищены, Самара, Самарская Область, РФ.</p> 
+</footer>
+  </body>
+</html>
